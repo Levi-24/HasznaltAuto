@@ -1,0 +1,16 @@
+KEP; MARKA; MODELL; KIVITEL; UZEMANYAG; EVJARAT; AR;
+;Ford;Gt40
+;Ford;Gt 2005
+;Nissan;S15 Silvia;Coupe;Benzin;1999;11000000
+;Nissan;240Z;Coupe;Benzin;1972;13600000
+;Porsche;Techart 911 GTstreet R;Coupe;Benzin;2023,144000000
+;Subaru;BRZ 2.0 Sport;Coupe;Benzin;2013;7200000
+;Toyota;Gt86 2.0 Sport;Coupe;Benzin;2013;6900000
+;Porsche;911 Mansory;Race;Benzin;2020;389500000
+;Mazda;rx-7;Coupe;Benzin;2002;13000000
+;BMW;E30 M3;Limuzin;Benzin;1989;33700000
+;Shelby;Cobra;Kabrió;Benzin;1965;50000000
+;Chevrolet;Camaro 1978;Coupe;Benzin;1978;2900000
+;Dodge;Viper 2012
+;Ford;Mustang 1970 Boss
+;Apollo;IE 18
