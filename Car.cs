@@ -12,7 +12,7 @@ namespace HasznaltAuto.src
         public string Type { get; set; }
         public string Fuel { get; set; }
         public int Year { get; set; }
-        public string Price { get; set; }
+        public double Price { get; set; }
 
         public Car(string readLine)
         {
@@ -23,7 +23,7 @@ namespace HasznaltAuto.src
             Type = data[3];
             Fuel = data[4];
             Year = int.Parse(data[5]);
-            Price = data[6] + " Ft.";
+            Price = double.Parse(data[6]);
         }
 
         public BitmapImage Picture

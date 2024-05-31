@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="900" WindowState="Maximized">
 
     <Grid>
-        <DataGrid ItemsSource="{Binding Vehicles}" Background="LightGray" AutoGenerateColumns="False" RowBackground="LightBlue" AlternatingRowBackground="CornflowerBlue" AlternationCount="2">
+        <DataGrid ItemsSource="{Binding Final}" Background="LightGray" AutoGenerateColumns="False" RowBackground="LightBlue" AlternatingRowBackground="CornflowerBlue" AlternationCount="2" Margin="0,44,0,-44">
             <DataGrid.Columns>
                 <!--Image-->
                 <DataGridTemplateColumn Header="Image">
@@ -30,7 +30,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Brand" MinWidth="150">
+                <DataGridTemplateColumn Header="Model" MinWidth="150">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Model}" 
@@ -40,7 +40,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Brand" MinWidth="150">
+                <DataGridTemplateColumn Header="Type" MinWidth="150">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Type}" 
@@ -50,7 +50,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Brand" MinWidth="150">
+                <DataGridTemplateColumn Header="Fuel" MinWidth="150">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Fuel}" 
@@ -60,7 +60,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Brand" MinWidth="150">
+                <DataGridTemplateColumn Header="Year" MinWidth="150">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Year}" 
@@ -70,7 +70,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Brand" MinWidth="150">
+                <DataGridTemplateColumn Header="Price" MinWidth="150">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Price}" 
@@ -82,5 +82,7 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
+        <TextBox Name="Text" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="310" Height="29"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="335,10,0,0" VerticalAlignment="Top" Height="29" Width="80" Click="Button_Click"/>
     </Grid>
 </Window>

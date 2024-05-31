@@ -1,13 +1,13 @@
 KEP; MARKA; MODELL; KIVITEL; UZEMANYAG; EVJARAT; AR;
-NissanS15Silvia.jpg;Nissan;S15 Silvia;Coupe;Benzin;1999;11.000.000
-Nissan240Z.jpg;Nissan;240Z;Coupe;Benzin;1972;13.600.000
-PorscheTechart.jpg;Porsche;Techart 911 GTstreet R;Coupe;Benzin;2023;144.000.000
-SubaruNRZ.jpg;Subaru;BRZ 2.0 Sport;Coupe;Benzin;2013;7.200.000
-ToyotaGT86.jpg;Toyota;Gt86 2.0 Sport;Coupe;Benzin;2013;6.900.000
-PorscheMansory.jpg;Porsche;911 Mansory;Race;Benzin;2020;389.500.000
-MazdaRx7.jpg;Mazda;rx-7;Coupe;Benzin;2002;13.000.000
-BmwE30M3.jpg;BMW;E30 M3;Limuzin;Benzin;1989;33.700.000
-ShelbyCobra.jpg;Shelby;Cobra;Cabrio;Benzin;1965;50.000.000
-ChevroleteCamaro1978.jpg;Chevrolet;Camaro 1978;Coupe;Benzin;1978;2.900.000
-FordMustang1969Boss.jpg;Ford;Mustang 1969 Boss;Other;Benzin;1969;12.500.000
-;Ford;Mustang 1969 Boss;Other;Benzin;1969;12.500.000
+NissanS15Silvia.jpg;Nissan;S15 Silvia;Coupe;Benzin;1999;11000000
+Nissan240Z.jpg;Nissan;240Z;Coupe;Benzin;1972;13600000
+PorscheTechart.jpg;Porsche;Techart 911 GTstreet R;Coupe;Benzin;2023;144000000
+SubaruNRZ.jpg;Subaru;BRZ 2.0 Sport;Coupe;Benzin;2013;7200000
+ToyotaGT86.jpg;Toyota;Gt86 2.0 Sport;Coupe;Benzin;2013;6900000
+PorscheMansory.jpg;Porsche;911 Mansory;Race;Benzin;2020;389500000
+MazdaRx7.jpg;Mazda;rx-7;Coupe;Benzin;2002;13000000
+BmwE30M3.jpg;BMW;E30 M3;Limousine;Benzin;1989;33700000
+ShelbyCobra.jpg;Shelby;Cobra;Cabrio;Benzin;1965;50000000
+ChevroleteCamaro1978.jpg;Chevrolet;Camaro 1978;Coupe;Benzin;1978;2900000
+FordMustang1969Boss.jpg;Ford;Mustang 1969 Boss;Other;Benzin;1969;12500000
+;Ford;Mustang 1969 Boss;Other;Benzin;1969;12500000
