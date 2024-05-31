@@ -1,27 +1,25 @@
-﻿using System.Text;
+﻿using HasznaltAuto.src;
+using System.Collections.ObjectModel;
+using System.IO;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace HasznaltAuto
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        public ObservableCollection<Car> Vehicles { get; set; } = new ObservableCollection<Car>();
+
         public MainWindow()
         {
             InitializeComponent();
 
+            using (var sr = new StreamReader("../../../src/Cars.txt"))
+            {
+                _ = sr.ReadLine();
+                while (!sr.EndOfStream) Vehicles.Add(new Car(sr.ReadLine()));
+            }
 
-            Vehicles.ItemsSource = vehicles;
+            DataContext = this;
         }
     }
 }
